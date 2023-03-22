@@ -2,7 +2,16 @@
 
 ### Brief
 
-Enter instruction for assignment here.
+Create the end-to-end flow for items. The routes for items would be as follows:
+- Get all items (optional: display items with category names instead of category id)
+- Retrieve a single item (optional: display items with category names instead of category id)
+- Create a new item 
+- Update an item 
+- Delete an item
+
+Make sure data validation is present (especially for creating and updating entries) before writing data in the database.
+
+Challenge: Create a new route for categories for GET /:id/items that lists all the items belonging to a single category.
 
 ### Submission 
 
