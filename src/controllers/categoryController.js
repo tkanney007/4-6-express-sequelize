@@ -14,10 +14,9 @@ exports.getSingleCategory = async (req, res) => {
 }
 
 exports.addNewCategory = async (req, res) => {
-    await Category.create({
+    const result = await Category.create({
         name: req.body.name
     });
-    const result = await Category.findByPk(req.params.id);
     return res.json(result);
 }
 
